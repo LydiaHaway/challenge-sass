@@ -1,0 +1,16 @@
+$grey: #6b717f;
+$lightgrey: #8c8c8c;
+$white: #fff;
+$black: #000;
+$pink: #bf4080;
+$green: #09ae51;
+$red: #cc0000;
+$orange: #f5a146;
+
+@mixin borderShadow($color) {
+  -webkit-box-shadow: 10px 10px 15px -4px $color;
+  -moz-box-shadow: 10px 10px 15px -4px $color;
+  box-shadow: 10px 10px 15px -4px $color;
+}
+
+$padding: 16px;
