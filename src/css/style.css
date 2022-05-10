@@ -100,4 +100,33 @@ h3 {
 }
 .messages p.warning {
   background-color: #f5a146;
+}
+
+.advantages li:nth-child(0) {
+  background: #229999;
+  color: #229999;
+}
+.advantages li:nth-child(1) {
+  background: #27aeae;
+  color: #1d8484;
+}
+.advantages li:nth-child(2) {
+  background: #2bc3c3;
+  color: #196f6f;
+}
+.advantages li:nth-child(3) {
+  background: #35d2d2;
+  color: #145a5a;
+}
+.advantages li:nth-child(4) {
+  background: #4ad7d7;
+  color: #0f4646;
+}
+.advantages li:nth-child(5) {
+  background: #5fdbdb;
+  color: #0b3131;
+}
+.advantages li:nth-child(6) {
+  background: #74e0e0;
+  color: #061c1c;
 }/*# sourceMappingURL=style.css.map */
