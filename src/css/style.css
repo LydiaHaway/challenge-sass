@@ -36,7 +36,7 @@ article section {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-article #selling-points {
+article section#selling-points {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
@@ -58,11 +58,11 @@ article code {
   display: block;
   word-wrap: break-word;
 }
-article .before {
+article code.before {
   float: left;
   width: 40%;
 }
-article .after {
+article code.after {
   float: right;
   width: 40%;
 }

@@ -30,11 +30,13 @@ article {
     clear: both;
     overflow: auto;
     box-sizing: border-box;
+
+    &#selling-points {
+      flex-grow: 2;
+      flex-basis: 100%;
+    }
   }
-  #selling-points {
-    flex-grow: 2;
-    flex-basis: 100%;
-  }
+
   code {
     background: $black;
     border: 1px solid $grey;
@@ -49,14 +51,16 @@ article {
     padding: $padding;
     display: block;
     word-wrap: break-word;
-  }
-  .before {
-    float: left;
-    width: 40%;
-  }
-  .after {
-    float: right;
-    width: 40%;
+
+    &.before {
+      float: left;
+      width: 40%;
+    }
+
+    &.after {
+      float: right;
+      width: 40%;
+    }
   }
 }
 
