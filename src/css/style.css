@@ -35,7 +35,7 @@ article section {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-article section#selling-points {
+article #selling-points {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
@@ -57,11 +57,11 @@ article code {
   display: block;
   word-wrap: break-word;
 }
-article code.before {
+article .before {
   float: left;
   width: 40%;
 }
-article code.after {
+article .after {
   float: right;
   width: 40%;
 }
@@ -86,47 +86,47 @@ h3 {
 .messages {
   padding: 16px;
 }
-.messages p.success, .messages p.warning, .messages p.error {
+.messages .success, .messages .warning, .messages .error {
   border: 1px solid #8c8c8c;
   padding: 16px;
   color: #fff;
   background-color: #09ae51;
 }
-.messages p.error {
+.messages .error {
   background-color: #cc0000;
 }
-.messages p.error:hover {
+.messages .error:hover {
   background-color: #09ae51;
 }
-.messages p.warning {
+.messages .warning {
   background-color: #f5a146;
 }
 
 .advantages li:nth-child(0) {
   background: #229999;
-  color: #229999;
+  color: deeppink;
 }
 .advantages li:nth-child(1) {
-  background: #27aeae;
-  color: #1d8484;
+  background: #28b6b6;
+  color: #ef0081;
 }
 .advantages li:nth-child(2) {
-  background: #2bc3c3;
-  color: #196f6f;
+  background: #31d1d1;
+  color: #cc006e;
 }
 .advantages li:nth-child(3) {
-  background: #35d2d2;
-  color: #145a5a;
+  background: #4ed8d8;
+  color: #a8005b;
 }
 .advantages li:nth-child(4) {
-  background: #4ad7d7;
-  color: #0f4646;
+  background: #6cdede;
+  color: #840047;
 }
 .advantages li:nth-child(5) {
-  background: #5fdbdb;
-  color: #0b3131;
+  background: #89e5e5;
+  color: #610034;
 }
 .advantages li:nth-child(6) {
-  background: #74e0e0;
-  color: #061c1c;
+  background: #a6ebeb;
+  color: #3d0021;
 }/*# sourceMappingURL=style.css.map */
