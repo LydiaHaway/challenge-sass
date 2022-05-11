@@ -10,9 +10,9 @@ body {
 }
 
 main {
-  padding: 0 1em;
-  padding-top: $padding * 0;
-  padding-bottom: $padding * 0;
+  padding: $padding;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 article {
@@ -91,10 +91,10 @@ h3 {
   .error {
     @extend .success;
     background-color: $red;
-  }
 
-  .error:hover {
-    background-color: $green;
+    &:hover {
+      background-color: $green;
+    }
   }
 
   .warning {
