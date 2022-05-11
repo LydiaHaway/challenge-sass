@@ -2,15 +2,14 @@ body {
   font: 100% "Space Mono", monospace;
   color: #6b717f;
   margin: 0;
-  padding: 0px;
+  padding: 0;
   background-color: #fff;
   overflow-x: hidden;
 }
 
 main {
-  padding: 16px;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 article {
