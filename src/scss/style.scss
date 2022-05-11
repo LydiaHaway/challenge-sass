@@ -17,9 +17,7 @@ main {
 article {
   display: flex;
   flex-wrap: wrap;
-}
 
-article {
   section {
     @include borderShadow($grey);
     flex-grow: 1;
